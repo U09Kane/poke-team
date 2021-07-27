@@ -1,0 +1,16 @@
+# OS files
+.DS_STORE
+
+# editor
+.idea
+.vscode
+
+# environment
+.env
+
+# python stuff
+__pycache__
+
+# data
+*.db
+*.csv
