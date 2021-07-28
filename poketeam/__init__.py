@@ -1,4 +1,5 @@
 from typing import Optional
+
 import dotenv
 from peewee import SqliteDatabase
 

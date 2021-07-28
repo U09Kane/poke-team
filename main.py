@@ -1,12 +1,7 @@
-from typing import Optional
-
 from fastapi import FastAPI
 
 
-app = Optional[FastAPI]
-
-
-if __name__ == '__main__':
+def setup() -> FastAPI:
     from poketeam import init_db
     init_db('default.db')
 
@@ -21,3 +16,7 @@ if __name__ == '__main__':
     )
 
     app.include_router(router)
+    return app
+
+
+app = setup()
