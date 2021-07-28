@@ -1,6 +1,8 @@
 
 ## Setup
 
+Note: Developed using Python 3.8
+
 Create a virtual environment.
 ```bash
 python -m venv .env
